@@ -104,3 +104,9 @@ the *Django Admin Interface* like this:
    :alt: Django Admin Interface running
 
    Django Admin Interface running
+   
+  # Azure Devios steps 
+1. Created docker file 
+2. pushed docker image to my docker hub mohamed3laa/django
+3. created helm chart and tested it 
+4- created build pipeline on azure devop 
