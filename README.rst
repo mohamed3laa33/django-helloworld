@@ -105,7 +105,8 @@ the *Django Admin Interface* like this:
 
    Django Admin Interface running
    
-  # Azure Devios steps 
+# Azure Devios steps
+
 1. Created docker file 
 2. pushed docker image to my docker hub mohamed3laa/django
 3. created helm chart and tested it 
