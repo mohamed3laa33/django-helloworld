@@ -33,4 +33,4 @@ steps:
     chartType: 'FilePath'
     chartPath: 'helm'
     valueFile: 'helm/values.yaml'
-    arguments: '--set image.tag=$(Build.BuildId)-${{ parameters.Environment }}'
+    arguments: '--set=image.tag=$(Build.BuildId)-${{ parameters.Environment }}'
