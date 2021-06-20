@@ -113,5 +113,6 @@ Azure DevOps steps
 4. created paramatrized (stage and prod) build pipeline on azure devop with file  
 
 > To make it running succefully:
+================================
 1. Created service connection to docker registery on docker hub
 2. Created service connection to connecto to my K8s cluster 
