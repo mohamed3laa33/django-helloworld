@@ -110,4 +110,8 @@ Azure DevOps steps
 1. Created docker file 
 2. pushed docker image to my docker hub mohamed3laa/django
 3. created helm chart and tested it 
-4. created build pipeline on azure devop 
+4. created paramatrized (stage and prod) build pipeline on azure devop with file  
+
+> To make it running succefully:
+1. Created service connection to docker registery on docker hub
+2. Created service connection to connecto to my K8s cluster 
