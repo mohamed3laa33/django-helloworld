@@ -24,3 +24,12 @@ steps:
   inputs:
     helmVersion: '2.14.1'
     installKubectl: true
+- task: HelmDeploy@0
+  inputs:
+    connectionType: 'Kubernetes Service Connection'
+    kubernetesServiceConnection: 'k8s'
+    command: 'upgrade'
+    chartType: 'FilePath'
+    chartPath: 'helm/'
+    overrideValues: 'image.tag=$(Build.BuildId)-${{ parameters.Environment }}'
+    valueFile: 'helm/values.yaml'
