@@ -112,7 +112,7 @@ Azure DevOps steps
 3. created helm chart and tested it 
 4. created paramatrized (stage and prod) build pipeline on azure devop with file  
 
-> To make it running succefully:
+> To make it running successfully:
 ================================
 1. Created service connection to docker registery on docker hub
 2. Created service connection to connecto to my K8s cluster 
